@@ -295,7 +295,6 @@ section, article {
     color: var(--branco);
     font-size: 1.5rem;
     cursor: pointer;
-    OVERFLOW: hidden;
 }
 
 
