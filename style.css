@@ -279,6 +279,7 @@ section, article {
     color: var(--branco);
     font-size: 1.5rem;
     cursor: pointer;
+    overflow: hidden;
 }
 
 @media (max-width: 499px) {
@@ -293,6 +294,7 @@ section, article {
 
     .menu-toggle:checked ~ .nav {
         display: block;
+        overflow: hidden;
     }
 
     .menu {
