@@ -295,6 +295,7 @@ section, article {
     color: var(--branco);
     font-size: 1.5rem;
     cursor: pointer;
+    OVERFLOW: hidden;
 }
 
 
@@ -313,5 +314,9 @@ section, article {
 
     .menu {
         flex-direction: column;
+    }
+
+    .input[type="checkbox"] {
+        display: block;
     }
 }
