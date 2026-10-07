@@ -284,6 +284,7 @@ section, article {
 @media (max-width: 499px) {
     .hamburguer {
         display: block;
+        overflow: hidden;
     }
 
     .nav {
